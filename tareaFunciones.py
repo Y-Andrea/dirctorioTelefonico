@@ -22,7 +22,24 @@ def calculo_horas() :
 
 
 
-calculo_horas()
+#calculo_horas()
 
+#mi funcion datos de mi mascota
+def datos_de_mi_mascota () :
+    print ("nombre de su mascota?")
+    nombre= input ()
+    print ("que edad tiene su mascota?")
+    edad= input ()
+    print ("tipo de mascota/raza")
+    raza= input ()
+    print ("tu nombre completo")
+    tuNombre= input ()
 
+    #llamo a mi funcion
+    datos_de_mi_mascota= nombre + edad + raza + tuNombre
+    print ("datos de mi mascota", datos_de_mi_mascota)
     
+    print (nombre, "es una", raza, "el cual tiene", edad, "años de edad y", tuNombre, "es actualmente el dueño")
+
+datos_de_mi_mascota ()
+
